@@ -1,0 +1,143 @@
+.navbar-custom {
+    background: rgba(0, 0, 0, 0.6); 
+    backdrop-filter: blur(5px); 
+    padding: 20px 20px; 
+    min-height: 80px; 
+}
+
+.nav-right {
+    margin-right: 30px; 
+}
+
+.home-icon {
+    font-size: 2rem; 
+    margin-left: 20px; 
+    color: white; 
+}
+
+.home-icon:hover {
+    color: #5988ff; 
+}
+
+.home-icon.active {
+    color: #5988ff; 
+}
+
+.nav-link {
+    color: #ffffff !important; 
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #cccccc !important; 
+}
+
+.nav-link.active {
+    color: #f64a4a !important;
+    font-weight: bold; 
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh; 
+    margin: 0; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.bagel-fat-one-regular {
+    font-family: "Bagel Fat One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place la vidéo derrière le contenu */
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajuste la vidéo pour couvrir tout l'écran */
+    transform: translate(-50%, -50%);
+}
+  
+.background-fr {
+    background-image: url('https://get.pxhere.com/photo/sea-water-ocean-architecture-sky-sunset-bridge-morning-city-monument-travel-golden-gate-bridge-san-francisco-suspension-bridge-dusk-evening-red-usa-america-bay-landmark-suspension-california-united-states-mountains-pacific-cable-stayed-bridge-nonbuilding-structure-san-francisco-bay-area-1097924.jpg');
+}  
+
+.background-en {
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/da/03/ba/photo4jpg.jpg?w=1800&h=1000&s=1');
+}  
+
+.background-es {
+    background-image: url('https://get.pxhere.com/photo/beach-ocean-summer-vacation-palm-tropical-bay-waterfront-tourism-leisure-resort-playground-miami-florida-miami-florida-miami-beach-key-biscayne-crandon-park-beach-830106.jpg');
+}  
+
+.background-pt {
+    background-image: url('https://images.unsplash.com/photo-1696249680051-e07adac6980b?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-de {
+    background-image: url('https://www.visittheusa.fr/sites/default/files/styles/state_hero_l_x2/public/images/hero_media_image/2020-08/173b8e51-ea2d-402a-9076-081aa114b734.jpeg?h=513a33c2&itok=WhIYfQxx');
+}  
+
+.background-pl {
+    background-image: url('https://plus.unsplash.com/premium_photo-1697730086436-78cb393f0dab?q=80&w=3348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-ru {
+    background-image: url('https://images.unsplash.com/photo-1515885267349-1fcef6e00fd1?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}  
+
+.background-nl {
+    background-image: url('https://cdn.britannica.com/60/117460-050-FDE6B3AC/Old-Capitol-University-of-Iowa-City.jpg');
+}  
+
+.background-sr {
+    background-image: url('https://i0.wp.com/www.maathiildee.com/wp-content/uploads/2018/10/manhattan-from-new-jersey.jpg?w=1100&ssl=1');
+}  
+  
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    flex-grow: 1; 
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
+}
+
+.container-landing {
+    z-index: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    flex-grow: 1; 
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);  
+}
+  
+h2 {
+    margin: 0;
+    font-family: "Bagel Fat One", serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: font-size 0.3s ease; 
+}
+
+h2:hover {
+  font-size: 4em; 
+}
