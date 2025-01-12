@@ -53,26 +53,10 @@ body {
     font-style: normal;
 }
 
-.video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Place la vidéo derrière le contenu */
-    overflow: hidden;
+.background-landing {
+    background-image: url('https://www.francetvinfo.fr/pictures/zHHcDNINPIXQsix-GubLvRhoVv8/0x23:1024x598/2656x1494/filters:format(avif):quality(50)/2024/10/12/000-36ha69g-670a36eed9cd2224727015.jpg');
 }
 
-#background-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ajuste la vidéo pour couvrir tout l'écran */
-    transform: translate(-50%, -50%);
-}
-  
 .background-fr {
     background-image: url('https://get.pxhere.com/photo/sea-water-ocean-architecture-sky-sunset-bridge-morning-city-monument-travel-golden-gate-bridge-san-francisco-suspension-bridge-dusk-evening-red-usa-america-bay-landmark-suspension-california-united-states-mountains-pacific-cable-stayed-bridge-nonbuilding-structure-san-francisco-bay-area-1097924.jpg');
 }  
@@ -117,17 +101,6 @@ body {
     flex-grow: 1; 
     color: white; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
-}
-
-.container-landing {
-    z-index: 1;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
-    flex-grow: 1; 
-    color: white; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);  
 }
   
 h2 {
